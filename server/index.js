@@ -1,6 +1,7 @@
 const {Server} = require('hapi');
 
 const Config = require('../config');
+const Logger = require('./utilities/logger');
 const Routes = require('./routes');
 
 const server = new Server();
@@ -13,7 +14,7 @@ server.route(Routes);
 
 server.start((err) => {
   if (err) throw err;
-  console.log('Starting server at', server.info.uri);
+  Logger.info('Starting server at', server.info.uri);
 });
 
 module.exports = server;
