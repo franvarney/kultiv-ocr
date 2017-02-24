@@ -4,5 +4,8 @@
   "main": "server/index.js",
   "repository": "git@github.com:franvarney/kultiv-ocr.git",
   "author": "Fran Varney <fran.varn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
 }
