@@ -9,6 +9,7 @@
   "author": "Fran Varney <fran.varn@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^16.1.0"
+    "hapi": "^16.1.0",
+    "request": "^2.79.0"
   }
 }
